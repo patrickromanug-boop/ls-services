@@ -1,1 +1,4 @@
 
+<resources>
+    <style name="Theme.LSServices" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
