@@ -1,0 +1,13 @@
+pluginManagement {
+    repositories {
+        google { content { includeGroupByRegex("com\\..*") } }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories { google(); mavenCentral() }
+}
+rootProject.name = "LS Services"
+include(":app")
