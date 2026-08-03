@@ -6,7 +6,7 @@ plugins {
 
 allprojects {
     repositories {
-        google()     // ← THIS IS CRUCIAL
+     // ← THIS IS CRUCIAL
         mavenCentral()
     }
 }
