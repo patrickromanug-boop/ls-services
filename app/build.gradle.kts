@@ -30,10 +30,6 @@ android {
     composeOptions { kotlinCompilerExtensionVersion = "1.5.4" }
 }
 
-repositories {
-    google()        // ← ADD THIS
-    mavenCentral()
-}
 
 dependencies {
     implementation(platform("androidx.compose:compose-bom:2024.02.00"))
